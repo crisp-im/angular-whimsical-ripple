@@ -11,9 +11,9 @@
         rippleWebkitKeyframes;
 
       rippleCSS = [
-        '-webkit-animation: ripple 800ms ease-out;',
-        'animation: ripple 800ms ease-out;',
-        'background-color: rgba(0, 0, 0, 0.16);',
+        '-webkit-animation: ripple 400ms ease-out;',
+        'animation: ripple 400ms ease-out;',
+        'background-color: rgba(0, 0, 0, 0.1);',
         'border-radius: 100%;',
         'height: 10px;',
         'pointer-events: none;',
@@ -27,7 +27,7 @@
       rippleKeyframes = [
         '@keyframes ripple {',
           'to {',
-            'transform: scale(2);',
+            'transform: scale(1.25);',
             'opacity: 0;',
           '}',
         '}'
@@ -36,7 +36,7 @@
       rippleWebkitKeyframes = [
         '@-webkit-keyframes ripple {',
           'to {',
-            '-webkit-transform: scale(2);',
+            '-webkit-transform: scale(1.25);',
             'opacity: 0;',
           '}',
         '}'
